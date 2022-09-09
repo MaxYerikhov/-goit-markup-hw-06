@@ -624,12 +624,17 @@ footer {
   letter-spacing: 0.06em;
   color: #ffffff;
   padding-left: 28px;
+  transition: background-color var(--transition-dur-and-func);
+}
+
+.footer-form-btn:focus,
+.footer-form-btn:hover {
+  background-color: #188ce8;
 }
 
 .footer-form-form {
   display: flex;
   width: 570px;
-  justify-content: start;
 }
 
 .footer-form-icon {
