@@ -848,6 +848,12 @@ footer {
   line-height: 1.88;
   letter-spacing: 0.06em;
   color: var(--white-font-color);
+  transition: background-color var(--transition-dur-and-func);
+}
+
+.modal-form-btn:hover,
+.modal-form-btn:focus {
+  background-color: #188ce8;
 }
 
 .modal-form-check-field {
