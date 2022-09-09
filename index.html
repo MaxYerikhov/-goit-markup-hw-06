@@ -15,7 +15,7 @@
       href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./styles/styles.css" />
-    <title>Document</title>
+    <title>WebStudio</title>
   </head>
   <body>
     <header class="page-header">
@@ -464,8 +464,13 @@
             ></textarea>
           </label>
           <label class="modal-form-check-field"
-            ><input type="checkbox" class="modal-form-check" name="user_policy" required />
-            Погоджуюся з розсилкою та приймаю &nbsp; <a href="#">Умови договору</a>
+            ><input type="checkbox" class="modal-form-check" name="user_policy" required /><svg
+              class="own-checkbox"
+            >
+              <use href="./images/sprite.svg#icon-checked"></use>
+            </svg>
+            Погоджуюся з розсилкою та приймаю &nbsp;
+            <a class="policy-link" href="#">Умови договору</a>
           </label>
           <button type="submit" class="modal-form-btn">Відправити</button>
         </form>

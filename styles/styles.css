@@ -892,3 +892,34 @@ footer {
   position: relative;
   display: block;
 }
+
+.modal-form-check {
+  position: absolute;
+  appearance: none;
+}
+
+.own-checkbox {
+  margin-right: 8px;
+  width: 16px;
+  height: 15px;
+  border: 2px solid #212121;
+  border-radius: 2px;
+  fill: var(--white-font-color);
+}
+
+.modal-form-check:checked + .own-checkbox {
+  background-color: var(--accent-color);
+}
+
+.modal-form-check:checked + .own-checkbox {
+  border-color: var(--accent-color);
+}
+
+.policy-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+  text-decoration: underline;
+}
